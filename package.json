@@ -1,0 +1,25 @@
+{
+  "name": "id.co.dolan",
+  "version": "1.0.0",
+  "displayName": "MoneyController",
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-console": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-sqlite-storage": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "cordova-browser": "^5.0.3",
+    "cordova-sqlite-storage": "^2.3.3",
+    "cordova-plugin-whitelist": "~1.2.0",
+    "cordova-plugin-console": "~1.0.1",
+    "cordova-plugin-statusbar": "~1.0.1"
+  }
+}
